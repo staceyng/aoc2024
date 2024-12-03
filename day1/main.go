@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("day1/day1.txt")
+	file, err := os.Open("day1/input.txt")
 	if err != nil {
 		panic(err)
 	}
